@@ -35,6 +35,7 @@ void setup() {
   // Here is a good place to read numPixel & colorOrder from EEPROM or what ever.
   // create a new NeoPixel instance with new values
   pixels = new Adafruit_NeoPixel(numPixel, PIN, colorOrder);
+  pixels->setBrightness(255);
   pixels->begin(); // This initializes the NeoPixel library.
 }
 
