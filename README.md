@@ -1,4 +1,4 @@
-# SEEED LED strip
+# SEEED LED Ring
 This library is for SEEED LED strip.
 
 
