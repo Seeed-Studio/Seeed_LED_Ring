@@ -1,5 +1,5 @@
 # SEEED LED Ring
-This library is for SEEED LED strip.
+This library is for SEEED LED ring.
 
 
 
