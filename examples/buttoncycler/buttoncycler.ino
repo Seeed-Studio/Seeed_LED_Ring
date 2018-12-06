@@ -28,6 +28,7 @@ int showType = 0;
 
 void setup() {
   pinMode(BUTTON_PIN, INPUT_PULLUP);
+  strip.setBrightness(255);
   strip.begin();
   strip.show(); // Initialize all pixels to 'off'
 }
